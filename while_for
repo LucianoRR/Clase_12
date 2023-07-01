@@ -1,0 +1,65 @@
+/*let variable1=prompt("Ingrese un numero mayor a 10: ")
+let variable2= 10
+while(variable1<=variable2){
+    console.log(variable1)
+    variable1 ++;
+}
+console.log((variable1 ++))
+console.log("El numero es mayor");
+*/
+
+
+/*
+let respuesta=prompt("Ingrese S: ")
+while(respuesta!=="S"){
+console.log("Programa ejecutandose...");
+respuesta= prompt("Ingrese S: ");
+}
+*/
+/*let respuesta = prompt("Ingrese si para salir o no para seguir: ");
+
+while(respuesta !== "si"){
+    console.log("Programa en ejecucion");
+    respuesta = prompt("Ingrese si para salir o no para seguir: ");
+}
+console.log("Saliendo del programa...")*/
+
+/*let contador = 1;
+
+while (contador <= 10){
+    console.log(contador);
+    contador++;
+}*/ 
+
+/*let respuesta = parseInt(prompt("Ingrese el numero 1: "));
+
+while(respuesta !== 1){
+    console.log("¡Incorrecto trata de nuevo!");
+    respuesta = parseInt(prompt("Ingrese el numero 1: "));
+}
+console.log("¡Felicidades!")
+*/
+/*const nroSecreto= 7
+let respuesta = parseInt(prompt("adivine el numero: "));
+while(respuesta !== nroSecreto){
+    console.log("¡Incorrecto trata de nuevo!");
+    respuesta = parseInt(prompt("adivine el numero: "));
+}
+console.log("¡Felicidades!")*/
+
+const nroSecreto= 20
+let respuesta = parseInt(prompt("Adivine el numero: "));
+while(respuesta>nroSecreto){
+    console.log("El numero es menor que "+respuesta)
+    
+else if (respuesta<nroSecreto)
+    console.log("El numero es mayor que "+respuesta)
+}
+
+
+
+/*let respuesta = parseInt(prompt("adivine el numero: "));
+while(respuesta !== nroSecreto){
+    console.log("¡Incorrecto trata de nuevo!");
+    respuesta = parseInt(prompt("adivine el numero: "));
+console.log("¡Felicidades!")*/
