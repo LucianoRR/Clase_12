@@ -47,14 +47,20 @@ while(respuesta !== nroSecreto){
 }
 console.log("¡Felicidades!")*/
 
-const nroSecreto= 20
-let respuesta = parseInt(prompt("Adivine el numero: "));
-while(respuesta>nroSecreto){
-    console.log("El numero es menor que "+respuesta)
-    
-else if (respuesta<nroSecreto)
-    console.log("El numero es mayor que "+respuesta)
+/*const nroSecreto= 20
+let respuesta = parseInt(prompt("adivine el numero: "));
+while(respuesta!==nroSecreto){
+if(respuesta>nroSecreto){
+    console.log("¡El numero es menor que: "+respuesta);
+    respuesta = parseInt(prompt("adivine el numero: "));
 }
+if (respuesta<nroSecreto){
+    console.log("¡El numero es mayor que: "+respuesta)
+    respuesta = parseInt(prompt("adivine el numero: "));
+}
+}
+console.log("¡El numero es: "+respuesta+"!")
+*/
 
 
 
